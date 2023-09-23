@@ -1,0 +1,23 @@
+
+
+// positions generated based on config.ctl //
+
+	"modules-left": ["custom/padd","custom/l_end","wlr/taskbar","mpris","custom/r_end","custom/padd"],
+	"modules-center": ["custom/padd","custom/l_end","clock","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/updates","custom/r_end","custom/padd"],
+
+
+// sourced from modules based on config.ctl //
+
+    "clock": {
+        "format": "{: %H:%M %p 󰃭 %a %d.%m.%Y}",
+        "format-alt": "{:󰥔 %H:%M  %b %Y}",
+        "tooltip-format": "<tt><big>{calendar}</big></tt>"
+    },
+
+//Orginal
+//    "clock": {
+//        "format": "{: %I:%M %p 󰃭 %a %d}",
+//        "format-alt": "{:󰥔 %H:%M  %b %Y}",
+//        "tooltip-format": "<tt><big>{calendar}</big></tt>"
+//    },
