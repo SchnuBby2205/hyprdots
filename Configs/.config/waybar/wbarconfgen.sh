@@ -119,6 +119,6 @@ cat $modules_dir/footer.jsonc >> $conf_file
 
 # generate style and restart waybar
 
-sed -i 's/\,\"battery\"\,\"custom\/r_end\"\,\"custom\/l_end\"\,\"custom\/wallchange\"\,\"custom\/mode\"\,\"custom\/wbar\"\,\"custom\/cliphist\"\,\"custom\/power\"\,\"custom\/r_end\"\,\"custom\/padd\"/\,\"custom\/r_end\"\,\"custom\/padd\"/g' $waybar_dir/config.jsonc
-sed -i 's/"format": "{: %I:%M %p 󰃭 %a %d}"/"format": "{: %H:%M %p 󰃭 %a %d.%m.%Y}"/g' $waybar_dir/config.jsonc
+#sed -i 's/\,\"battery\"\,\"custom\/r_end\"\,\"custom\/l_end\"\,\"custom\/wallchange\"\,\"custom\/mode\"\,\"custom\/wbar\"\,\"custom\/cliphist\"\,\"custom\/power\"\,\"custom\/r_end\"\,\"custom\/padd\"/\,\"custom\/r_end\"\,\"custom\/padd\"/g' $waybar_dir/config.jsonc
+#sed -i 's/"format": "{: %I:%M %p 󰃭 %a %d}"/"format": "{: %H:%M %p 󰃭 %a %d.%m.%Y}"/g' $waybar_dir/config.jsonc
 $waybar_dir/wbarstylegen.sh
