@@ -21,3 +21,7 @@
 //        "format-alt": "{:󰥔 %H:%M  %b %Y}",
 //        "tooltip-format": "<tt><big>{calendar}</big></tt>"
 //    },
+
+// Unter dem Themes im HYPR config die Zeile
+//#blurls = waybar
+// einkommentieren wenn der hintergrundbalken für wabar angezeigt werden soll
